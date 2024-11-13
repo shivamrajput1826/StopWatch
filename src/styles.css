@@ -1,0 +1,30 @@
+.timer__heading > span {
+  margin-left: 10px;
+}
+
+.timer__heading {
+  margin-top: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.timer__input > span > input {
+  border: 0px;
+  width: 30px;
+  margin: 10px;
+  appearance: none;
+}
+
+.timer__button > button {
+  margin: 10px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
